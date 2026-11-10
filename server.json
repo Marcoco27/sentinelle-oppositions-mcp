@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Marcoco27/sentinelle-oppositions",
+  "title": "Sentinelle oppositions FR",
+  "description": "French business sales and mergers (BODACC) per debtor, with the creditor objection deadline.",
+  "version": "0.1.0",
+  "websiteUrl": "https://oppositions.amacunia.fr/",
+  "repository": {
+    "url": "https://github.com/Marcoco27/sentinelle-oppositions-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://oppositions.amacunia.fr/mcp"
+    }
+  ]
+}
